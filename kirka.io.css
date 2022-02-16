@@ -1,0 +1,16 @@
+/* Lore CSS 
+- Created By: Word
+*/
+
+/* Accents */
+@import url(https://raw.githubusercontent.com/githubmodssuck/Injectors809/main/index.css);
+/* Lobby-Interface */
+@import url(https://raw.githubusercontent.com/githubmodssuck/Injectors809/main/lobby-interfacev2.css);
+/* Game_Interface */
+@import url(https://raw.githubusercontent.com/githubmodssuck/Injectors809/main/game-interface.css);
+
+/* Ad Block */
+#ad-bottom,
+#ad-left {
+  width: 0px !important;
+}
