@@ -1,0 +1,729 @@
+
+/* Credit    */
+#app > div.interface.text-2 > div.background > div.bg-radial {
+  position: absolute !important;
+  height: 45px !important;
+  width: 105px !important;
+  top: 64rem !important;
+  left: 0rem !important;
+  background: #ffffff00 !important;
+}
+#app > div.interface.text-2 > div.background > div.bg-radial::after {	
+  font-size: 1rem;
+  content: "CSS by Word ";
+  padding: 0.6rem !important;
+  color: #ffffff;
+  position: fixed;
+  top: 64.5rem;
+  left: 0rem;
+  z-index: 10;
+  pointer-events: auto;
+  backdrop-filter: blur(3px) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-top: none !important;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  border-radius: 0px !important;
+}
+#app > div.interface.text-2 > div.background > div.bg-radial:hover::after {
+  font-size: 1rem;
+  text-align: left;
+  white-space: pre;
+  content: "Nitro Boosters \A --------------- \A wxlruz#9576 \A y9mx#8088 \A Rebel#0005 \A HaHa#4475";
+  backdrop-filter: blur(3px) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-top: none !important;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  border-radius: 0px !important;
+  transition: all 0.3s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+  border: none !important;
+  padding: 0.9rem;
+  width: auto;
+  max-width: 350px;
+  height: 389px;
+  color: #ffffff;
+  position: fixed;
+  top: 41.99em;
+  left: 0rem;
+}
+/* Logo */
+#app > div.interface.text-2 > img {
+  content: var(--logo) !important;
+}
+
+/* Background */
+#app > div.interface.text-2 > div.background {
+  pointer-events: auto !important;
+  background: linear-gradient(
+    103.28deg,
+    #000000 7.06%,
+    #000000 90.75%
+  ) !important;
+}
+#app > div.interface.text-2 > div.background > div.pattern-bg {
+  background: var(--pattern) repeat;
+  -webkit-animation: loopPattern-data-v-50a88 80s linear infinite;
+  animation: loopPattern-data-v-50a88834 80s linear infinite;
+  opacity: 1;
+}
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.bottom
+  > button {
+  --top: transparent !important;
+  --bottom: transparent !important;
+  --hover-color: transparent !important;
+  width: 50px;
+  height: 50px;
+  background: var(--logout) center 100% / 100% no-repeat !important;
+  background-color: transparent !important;
+  color: transparent !important;
+  text-shadow: 0 0.1em 0 transparent;
+  -webkit-text-stroke: 1px transparent;
+  transition: none;
+  box-shadow: none;
+}
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input > button{
+  --top: transparent !important;
+  --bottom: transparent !important;
+  --hover-color: transparent !important;
+  width: 55px;
+  height: 55px;
+  top: 2px;
+  background: url(https://cdn.discordapp.com/attachments/919511402853580860/936551471233785887/157938_1.png) center 100% / 100% no-repeat !important;
+  background-color: transparent !important;
+  color: transparent !important;
+  text-shadow: 0 0.1em 0 transparent;
+  -webkit-text-stroke: 1px transparent;
+  transition: none;
+  box-shadow: none;
+  transform: skew(0deg);
+  transition: all 0.3s ease;
+  right: 23px;
+}
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input > button:hover{
+   transform: scale(1.1) rotate(45deg);
+}
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.bottom
+  > button:after, .button[data-v-02c36fca]:after {
+  border: none !important;
+}
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.bottom
+  > button:hover {
+  background: var(--logout-hover) center 100% / 100% no-repeat !important;
+  background-color: var(--hover) !important;
+  padding: 10px !important;
+}
+/* join Button
+#app > div.interface.text-2 > div.left-interface {
+  background-image: var(--join-button) !important;
+  background: no-repeat;
+  background-size: 10.48rem 2.25rem;
+  background-position: 7.1rem 9.84rem;
+  image-rendering: pixelated;
+}
+*/
+.add[data-v-197190ba]:hover {
+    background-color: var(--primary-1)
+}
+/* Hidden */
+#app > div.view > div > div > div.content > div > div.clans,
+#left-icons > div:nth-child(1) > div:nth-child(1),
+#left-icons > div:nth-child(1) > div:nth-child(2),
+#left-icons > div:nth-child(1) > div:nth-child(3),
+#left-icons > div:nth-child(1) > div:nth-child(4),
+#left-icons > div.icon-btn.text-1,
+#left-interface > div.moneys > div:nth-child(1),
+#left-interface > div.moneys > div:nth-child(2),
+.container,
+.close,
+.name-page,
+.home,
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div.leaderboard-cont
+  > div.list-champions
+  > div
+  > div.top-items,
+.active,
+.tab:hover,
+#play > div > div.play-content-up > div > div > hr,
+#view > div > div > div.content > div > div.avatar, div.gun, div.delete, #view > div > div > div.content > div > div.content > div.tabs.text-2,
+.active-tab, #view > div > div > div.content > div > div.add-friends.text-2{
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.active,
+.tab:hover {
+  text-decoration: underline;
+}
+
+/* Player */
+#app > div.interface.text-2 > div.team-section > div.player > div > div.levels {
+  border-radius: 0px;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+}
+/* Text Color */
+.level-value,
+.levels,
+.clan-tag,
+.top-name,
+.list-labels {
+  color: var(--primary-1) !important;
+}
+/* Containers */
+/* Play button */
+#play-btn {
+  --hover-color: var(--primary-2);
+  border: none;
+  border-radius: 0px !important;
+  padding: 1em 1em;
+  box-shadow: none;
+  background-color: var(--background) !important;
+  /* Right */
+  background: var(--right-corners);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+#play-btn > div.borders > div.border-top.border {
+  background: none;
+}
+#play-btn > div.borders > div.border-bottom.border {
+  width: 0.5rem;
+  height: 100rem;
+  background: #f23636;
+  box-shadow: 0 0 50px #e24f4f;
+}
+.triangle-bottom[data-v-02c36fca],
+.triangle[data-v-02c36fca] {
+  display: none !important;
+}
+/* Cards */
+#auth-user > div > div.card-cont,
+#right-icons > div.card-cont.text-1.inventory-card,
+#right-icons > div.icon-btn.text-1,
+#view > div,
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.top-medium
+  > div.top
+  > div.card.card-profile,
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.top-medium
+  > div.top
+  > div.card.k-d,
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.top-medium
+  > div.top
+  > div.card.progress,
+#view > div > div > div.content > div > div > div.you > div > div.levels,
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div.leaderboard-cont
+  > div.list-champions
+  > div,
+.lvl-leader,
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div.clans
+  > div.champions-container
+  > div.champions-list,
+#left-interface::after,
+#right-interface > div.settings-and-socicons > div.card-cont.settings.card-1,
+#right-interface > div.live-streams, #view > div > div > div.content > div > div.content > div.tabs.text-2 > div.limit{
+  backdrop-filter: blur(6px) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-top: none !important;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  border-radius: 0px !important;
+  transition: background 0.3s ease;
+  border: none !important;
+  padding: 0.9rem;
+}
+#view > div > div > div.content > div > div.vm--container > div.vm--modal > div > div,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.card-cont,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container,
+.background[data-v-040b7087]{
+  backdrop-filter: blur(6px) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-top: none !important;
+  background-color: var(--background-dark) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  border-radius: 0px !important;
+  transition: background 0.3s ease;
+  border: none !important;
+  padding: 0.9rem;
+}
+#left-icons {
+  left: 0.063rem;
+  top: 7.5rem !important;
+  height: auto;
+  padding-bottom: 10px;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+}
+#auth-user > div > div.card-cont.user-info > div.progress-label {
+  right: 0.625rem !important;
+  top: 0.625rem;
+}
+#left-interface > div.moneys {
+  display: flex;
+  margin-left: -1px;
+  margin-top: 0px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  backdrop-filter: blur(3px) !important;
+  position: fixed;
+  left: 21.063rem;
+  height: 7rem;
+}
+#auth-user > div > div.card-cont.user-info > div.progress-label {
+  display: none;
+}
+/* Misc */
+#view > div > div > div.content > div > div.vm--container > div.vm--modal > div > div{
+    display: flex;
+    position: fixed;
+    left: 400px;
+    top: 250px;
+}
+.head-text[data-v-4d25bc18] {
+    box-shadow: none !important;
+    background: transparent !important;
+    font-size: 1rem;
+    width: 130px;
+}
+.level-cont{
+  border: none !important;
+  border-radius: 0px !important;
+  background-color: var(--background) !important;
+  background: var(--right-corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  backdrop-filter: blur(3px) !important;
+}
+.friend, #view > div > div > div.content > div > div.add-friends.text-2 > div.input > label > input{
+  border-left-style: solid;
+  border-color: var(--primary-1);
+  background-image: linear-gradient(to left, transparent, #e24f4f2b);
+  background-color: rgba(41, 41, 41, 0.34);
+}
+.friend{
+border: 0px !important;
+}
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input > label > input{
+   border-radius: 0px 50px 30px 0px !important;
+}
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input > label > input{
+  max-width: 400px
+}
+div.selected{
+    background: var(--primary-1);
+    top: -2px !important;
+    right: -2px !important;
+    box-shadow: 0px 0px 10px 5px var(--primary-1);
+}
+.reqs{
+  box-shadow: 0px 0px 10px 1px var(--primary-1);
+  width: 10px !important;
+  height: 10px !important;
+}
+#view > div > div > div.content > div > div.content > div.subjects{
+  backdrop-filter: blur(6px) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-top: none !important;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  border-radius: 0px !important;
+  transition: background 0.3s ease;
+  border: none !important;
+  padding: 0.9rem;
+}
+.subject{
+  backdrop-filter: blur(6px) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-top: none !important;
+  background-color: var(--background-dark) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  border-radius: 0px !important;
+  transition: background 0.3s ease;
+  border: none !important;
+  padding: 0.9rem;
+}
+#play > button{
+  position: fixed !important;
+  right: 1px !important;
+  left: 121px !important;
+  top: 30px;
+  bottom: auto;
+  backdrop-filter: blur(3px) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-top: none !important;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  border-radius: 0px !important;
+  transition: background 0.3s ease;
+  border: none !important;
+  padding: .6rem !important;
+}
+#play > button:hover{
+  color: var(--primary-1)  !important
+}
+.custom-checkbox > span[data-v-47e1b746]:before {
+  border: none !important;
+}
+#play > div > div.play-content-up > div,
+#play > div > div.select-region {
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-top: none !important;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  border-radius: 0px !important;
+  transition: background 0.3s ease;
+  border: none !important;
+  padding: 0.9rem;
+}
+#select-regions-cont {
+  right: 7.375rem !important;
+  max-width: 16.375rem !important;
+}
+#play > div > div.play-content-up > div > div,
+#select-regions-cont {
+  max-width: 23.75rem;
+  bottom: 14.313rem;
+  backdrop-filter: blur(6px) !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  border-top: none !important;
+  background-color: var(--background) !important;
+  background: var(--corners);
+  background-repeat: no-repeat !important;
+  background-size: 10px 10px !important;
+  border-radius: 0px !important;
+  transition: background 0.3s ease;
+  border: none !important;
+  padding: 0.9rem;
+}
+#play > div > div.play-content-up > div > div::after {
+  backdrop-filter: blur(3px) !important;
+}
+#right-interface > div.live-streams {
+  margin-right: -0.01rem !important;
+  margin-top: -4.8rem !important;
+}
+#right-interface > div.settings-and-socicons > div.card-cont.settings.card-1 {
+  margin-right: 235px !important;
+}
+#right-interface > div.live-streams > div.head {
+  padding-left: 3rem !important;
+  color: var(--primary-1);
+}
+.background-leaders {
+  background: radial-gradient(
+    39.55% 50% at 50% 50%,
+    #e24f4fb5 0,
+    rgba(54, 74, 150, 0) 100%
+  ) !important;
+}
+.progress {
+  box-shadow: 0px 0px 10px 1px var(--primary-1);
+}
+.close {
+  padding: 8px;
+}
+.close:hover {
+  background: #ffffff0f !important;
+  padding: 5px;
+}
+.close-icon{
+  width: 1.5rem !important;
+  height: 1.5rem !important
+}
+.close-icon:hover{
+  width: 1.8rem !important;
+  height: 1.8rem !important
+}
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.top-medium
+  > div.medium
+  > div,
+#view > div > div > div.top-bar {
+  border: none;
+  border-radius: 0px !important;
+  box-shadow: none;
+  background-color: var(--background) !important;
+  /* Right */
+  background: var(--right-corners);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.top-medium
+  > div.medium, #view > div > div > div.content > div > div.avatar > div.bottom,
+  .item-content {
+  border-left-style: solid;
+  border-color: var(--primary-1);
+  background-image: linear-gradient(to left, transparent, #e24f4f2b) !important;
+  background-color: rgba(41, 41, 41, 0.34) !important;
+  border-radius: 0px !important;
+}
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.top-medium
+  > div.medium
+  > div
+  > div:nth-child(1) {
+  margin-right: 10px;
+}
+/* Hover */
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div
+  > div.content
+  > div.top-medium
+  > div.top
+  > div.card.card-profile
+  > div.v-popover
+  > div
+  > div:hover {
+  color: var(--primary-1);
+}
+.home:hover {
+  background: var(--hover) !important;
+}
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div.leaderboard-cont
+  > div.list-champions
+  > div
+  > div.top-items
+  > div.items
+  > div:nth-child() {
+  border: none;
+  border-radius: 0px !important;
+  box-shadow: none;
+  background-color: var(--background) !important;
+  /* Right */
+  background: var(--right-corners);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div.leaderboard-cont
+  > div.list-champions
+  > div
+  > div.top-items
+  > div.items
+  > div,
+#view
+  > div
+  > div
+  > div.content
+  > div
+  > div.leaderboard-cont
+  > div.list-champions
+  > div
+  > div.bottom-items
+  > div,
+#view > div > div > div.content > div > div.tabs,
+.items .item[data-v-8a6d4c66] {
+  border-left-style: solid;
+  border-color: var(--primary-1);
+  background-image: linear-gradient(to left, transparent, #e24f4f2b);
+  background-color: rgba(41, 41, 41, 0.34);
+  border-radius: 0px !important;
+}
+
+#right-interface > div.settings-and-socicons > div:nth-child(1),
+#right-interface > div.settings-and-socicons > div:nth-child(2) {
+  background: transparent !important;
+  border: none;
+}
+#right-interface
+  > div.settings-and-socicons
+  > div:nth-child(2)
+  > div
+  > div:nth-child(2),
+#right-interface
+  > div.settings-and-socicons
+  > div:nth-child(1)
+  > div
+  > div:nth-child(2),
+#right-interface
+  > div.settings-and-socicons
+  > div:nth-child(1)
+  > div
+  > div.discord-name,
+#right-interface
+  > div.settings-and-socicons
+  > div:nth-child(2)
+  > div
+  > div.discord-name,
+#right-interface > div.settings-and-socicons > div:nth-child(2) > svg,
+#right-interface > div.settings-and-socicons > div:nth-child(1) > svg > use,
+#right-interface > div.live-streams > div.list > div:nth-child(2),
+#right-interface > div.live-streams > div.head > svg {
+  display: none;
+}
+
+/* Animations */
+.clan-tag {
+  animation: glow 0.8s ease-in-out infinite alternate;
+}
+@keyframes loopPattern-data-v-50a88834 {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 100vh;
+  }
+}
+@keyframes loopPattern-data-v-50a88834 {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 100vh;
+  }
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 1px #000, 0 0 2px var(--primary-1),
+      0 0 30px var(--primary-1), 0 0 4px var(--primary-1),
+      0 0 5px var(--primary-1), 0 0 6px var(--primary-1),
+      0 0 7px var(--primary-1);
+  }
+  to {
+    text-shadow: 0 0 2px var(--primary-1), 0 0 3px var(--secondary-7),
+      0 0 4px var(--secondary-7), 0 0 5px var(--secondary-7),
+      0 0 6px var(--secondary-7), 0 0 7px var(--secondary-7),
+      0 0 8px var(--secondary-7);
+  }
+}
+#app > div.interface.text-2 > img {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}

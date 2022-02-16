@@ -1,0 +1,45 @@
+body {
+  /* Colors */
+  --primary-1: hsl(0, 84%, 56%);
+  --secondary-1: hsl(160, 6%, 9%);
+  --secondary-2: hsl(340, 7%, 18%);
+  --secondary-3: hsl(150, 7%, 6%);
+  --secondary-4: hsl(160, 5%, 11%);
+  --secondary-5: hsl(160, 5%, 11%);
+  --secondary-6: hsl(345, 6%, 13%);
+  --secondary-7: hsl(0, 0%, 6%);
+  --hover: hsla(0, 0%, 100%, 0.059);
+  --background: hsla(0, 0%, 16%, 0.25);
+  --background-dark: hsla(0, 0%, 0%, 0.329);
+
+  /* Box-Model */
+  --right-border: 2px solid var(--primary-1);
+  --corners: linear-gradient(to right, var(--primary-1) 2px, transparent 2px) 0
+      100%,
+    linear-gradient(to left, var(--primary-1) 2px, transparent 2px) 100% 100%,
+    linear-gradient(to top, var(--primary-1) 2px, transparent 2px) 0 100%,
+    linear-gradient(to top, var(--primary-1) 2px, transparent 2px) 100% 100%,
+    linear-gradient(to right, var(--primary-1) 2px, transparent 2px) 0 0,
+    linear-gradient(to left, var(--primary-1) 2px, transparent 2px) 100% 0,
+    linear-gradient(to bottom, var(--primary-1) 2px, transparent 2px) 0 0,
+    linear-gradient(to bottom, var(--primary-1) 2px, transparent 2px) 100% 0;
+  --right-corners: linear-gradient(to right, var(--primary-1) 0px, transparent 0px) 0
+  100%,
+  linear-gradient(to left, var(--primary-1) 2px, transparent 2px) 100% 100%,
+  linear-gradient(to top, var(--primary-1) 0px, transparent 0px) 0 100%,
+  linear-gradient(to top, var(--primary-1) 2px, transparent 2px) 100% 100%,
+  linear-gradient(to right, var(--primary-1) 0px, transparent 0px) 0 0,
+  linear-gradient(to left, var(--primary-1) 2px, transparent 2px) 100% 0,
+  linear-gradient(to bottom, var(--primary-1) 0px, transparent 0px) 0 0,
+  linear-gradient(to bottom, var(--primary-1) 2px, transparent 2px) 100% 0;
+
+  /* Manipulation */
+  --blur: blur(6px);
+
+  /* misc */
+  --logo: url(https://media.discordapp.net/attachments/919511402853580860/934397506299785296/lorekirkalogo.png);
+  --pattern: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png);
+  --join-button: url(https://cdn.discordapp.com/attachments/919511402853580860/934408875556339732/JoinButton.png);
+  --logout: url(https://cdn.discordapp.com/attachments/919511402853580860/936228827481378887/157938.png);
+  --logout-hover: url(https://cdn.discordapp.com/attachments/919511402853580860/936229656049373184/157938_1.png)
+}
