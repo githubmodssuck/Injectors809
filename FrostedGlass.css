@@ -1519,7 +1519,7 @@ html.platform-osx .macButtons-2MuSAC {
   top: var(--window-padding);
   left: var(--window-padding);
   background: rgba(0, 0, 0, var(--serverlist-brightness));
-  width: 72px;
+  width: 100px;
   border-top-left-radius: var(--window-roundness);
 }
 html.platform-osx .wrapper-1Rf91z {
